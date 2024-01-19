@@ -1,0 +1,58 @@
+.cvshr {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cvshr .cvi {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.cvshr .cvi:first-child {
+  margin-left: 0;
+}
+.cvshr .cvi:last-child {
+  margin-right: 0;
+}
+.cvshr .cvi {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #656565;
+  color: #fff;
+}
+.cvshr.square .cvi {
+  border-radius: 2px;
+}
+
+.cvshr .cvi:hover {
+  background-color: #000000;
+}
+.cvshr .cvi.facebook:hover {
+  background-color: #3b5998;
+}
+.cvshr .cvi.twitter:hover {
+  background-color: #000000;
+}
+.cvshr .cvi.linkedin:hover {
+  background-color: #0077b5;
+}
+.cvshr .cvi.reddit:hover {
+  background-color: #ff4500;
+}
+.cvshr .cvi.whatsapp:hover {
+  background-color: #25d366;
+}
+.cvshr .cvi.email:hover {
+  background-color: #f756f2;
+}
+
+.cvshr .cvi svg {
+  max-width: 90%;
+  max-height: 90%;
+  pointer-events: none;
+}
